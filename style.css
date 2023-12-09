@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    transition: .3s;
+    transform-style: preserve-3d;
+    
+}
+
+.navbar a {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600 ;
+    margin-left: 35px;
+    transition: .3s;
+   
+    
+    
+    
+}
+
+.navbar a:hover , .navbar a.active{
+    color: #9aa9ff;
+    font-size: 30px;
+    position: relative;
+    opacity: 1;
+}
+
+.logo:hover {
+    
+ color: #a2ff9a;
+    font-size: 30px;
+    position: relative;
+    opacity: 1;
+    box-shadow: 2px;
+    text-shadow: 2px black;
+    text-transform: uppercase;
+    
+}
+
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #ededed;
+    padding: 0 10%;
+    
+}
+.home-content {
+    background-color: transparent;
+    max-width: 600px;
+    position: relative;
+    left: 35%;
+    
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2;
+    
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #9aa9ff;
+}
+
+.home-content p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 2px 0 40px;
+}
+.home-content .btn-box{
+    display: flex;
+     justify-content: space-between;
+    width: 350px;
+    height: 50px;
+    
+}
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #9aa9ff;
+    border: 2px solid #000000;
+    font-size: 19px;
+    border-radius: 8px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.60s;
+}
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #1b1e2a;
+
+}
+
+.btn-box a:nth-child(1) {
+    background: transparent;
+    color: #1b1e2a;
+    
+
+}
+
+
+.btn-box a:hover {
+    background-color: #9aa9ff;
+    color: #081b29;
+    box-shadow: 5px 5px 2.5px #081b29;
+
+}
+
+
+.btns {
+    
+    display: inline;
+    
+
+}
+
+.btns i{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 400;
+    transition: 0.25s;
+    display: flex;
+    
+}
+
+.btns i {
+    text-decoration: none;
+    color: #ededed;
+}
+
+.btns i:hover {
+    font-size: 55px;
+    display: flex;
+    margin: 2px;
+   
+    
+}
+
+body {
+    background: url(sunrise-landscape-minimalism-5k-ex-1920x1080.jpg)
+}
