@@ -19,6 +19,7 @@
     align-items: center;
     z-index: 100;
     
+    
 }
 .logo{
     font-size: 25px;
@@ -38,10 +39,7 @@
     font-weight: 600 ;
     margin-left: 35px;
     transition: .3s;
-   
-    
-    
-    
+    padding-left: 15px;
 }
 
 .navbar a:hover , .navbar a.active{
@@ -80,13 +78,13 @@
     
 }
 
-.home-content h1 {
+/* .home-content h1 {
     font-size: 56px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.2;
-    
-}
+       
+} */
 
 .home-content h3{
     font-size: 32px;
@@ -176,5 +174,119 @@
 }
 
 body {
-    background: url(sunrise-landscape-minimalism-5k-ex-1920x1080.jpg)
+    background: url(sunrise-landscape-minimalism-5k-ex-1920x1080.jpg);
+    
+    background: cover;
+
+    
+    
 }
+
+
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.2;
+  overflow: hidden;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: fit-content;
+  border-right: 0.08em solid black;
+  animation: typing 4s steps(40, end) forwards, blink 0.90s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 55%;
+  }
+}
+
+@keyframes blink {
+  60% {
+    border-color: transparent;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+    .home-content h1 {
+        font-size: 36px;
+        line-height: 50px;
+
+    }
+
+    .home-content h3 { 
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .home-content p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    /* .btn-box a{
+    width: 150px;
+    height: 100%;
+    font-size: 19px;
+        
+    } */
+
+    .home-content .btn-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .navbar a {
+        font-size: 10px; 
+        margin-left: 5px; 
+        padding-left: 5px; 
+        position: relative;
+        right: -30px;
+
+    }
+    .navbar a.active {
+        font-size: 14px; 
+        margin-left: 5px; 
+        padding-left: 5px;  }
+
+        .logo {
+            font-size: 17px;
+        }
+        .home-content  {
+           padding-left: 20%; 
+           position: relative;
+           left: -20%;
+           
+        }
+
+    .navbar a:hover , .navbar a.active{
+    color: #9aa9ff;
+    font-size: 12px;
+    /* position: relative; */
+    opacity: 1; 
+}
+.logo:hover{
+    font-size: 20px;
+}
+.navbar {
+    display: flex;
+}
+        
+    }
+        
+
+
+
+    
+
+
+
+
+
