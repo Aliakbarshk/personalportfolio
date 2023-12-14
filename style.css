@@ -212,7 +212,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 768px)
 {
     .home-content h1 {
         font-size: 36px;
